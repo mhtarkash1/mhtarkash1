@@ -1,0 +1,17 @@
+.body{
+    background-Color: #000;
+    min-Height: 100vh ;
+    display: flex;
+    flex-Direction: column;
+
+
+}
+.header{
+    background-Color: gray;
+    height: 60px;
+    display: flex;
+    flex-Direction: row-reverse;
+    justify-Content: space-between;
+    align-Items: center;
+
+}
