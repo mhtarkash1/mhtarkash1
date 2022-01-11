@@ -17,7 +17,7 @@ export default class MyInput extends Component {
             <div style={{
                 color: "#000", width: '100%',
                 padding: 15,
-                display: 'flex',
+                display: 'flow',
                 justifyContent: 'center',
                 alignItems: 'center',
                 flexDirection: 'column'
