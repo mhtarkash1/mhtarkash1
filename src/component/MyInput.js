@@ -10,8 +10,7 @@ export default class MyInput extends Component {
     
 
     render() {
-        var regex = this.props.regex 
-        // /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4})*$/
+        var regex = this.props.regex     // /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4})*$/
         var errortext = this.props.errortext
         return (
             <div style={{
